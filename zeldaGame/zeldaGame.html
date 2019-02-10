@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zelda Game</title>
+         <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+         <link rel = "stylesheet" type = "text/css" href = "zeldaGame.css"/>
+         <script src = "zeldaGame.js" > </script>
+    </head>
+    <body>
+         <div id = "game">Start Game </br> <div onclick = "start();easy()">easy</div> </br>
+          <div onclick = "start();med()">medium</div> </br>
+ <div onclick = "start();hard()">hard</div> </div>
+        <canvas id = "can"> </canvas>
+         <canvas id = "players" height = "400" width = "400"> </canvas>
+
+    <div id = "controls">
+        <div id = "left" onclick="moveLeft()"></div>
+        <div id = "right" onclick="moveRight()"></div>
+          <div id = "up" onclick="moveUp()"></div>
+        <div id = "down" onclick="moveDown()"></div>
+         <div id = "sword" onclick="attack()"></div>
+          <div id = "invent">
+   </div>
+   <div id = "help" onclick = "hbox()">?</div>
+
+     </div>
+
+    </body>
+</html>

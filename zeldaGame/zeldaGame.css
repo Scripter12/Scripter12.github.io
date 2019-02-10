@@ -1,0 +1,91 @@
+canvas{
+   position:absolute;
+   top:0;
+   left:0;
+   width:100vw;
+   height:65vh;
+}
+#game{
+   z-index:2;
+   width:100vw;
+   height:65vh;
+   background-color:blue;
+   margin-top:-65vh;
+   opacity:0.5;
+   font-weight:bold;
+   font-size:70px;
+
+}
+
+#controls{
+
+   margin-top:65vh;
+   z-index:0;
+   position:relative;
+
+}
+
+div{
+   position:absolute;
+}
+
+input{
+   visibility:hidden;
+}
+
+input[type="radio"]:checked+label{
+font-weight:bold;
+color: yellow;
+}
+
+#up {
+left:100px;
+width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent; border-bottom: 40px solid gold; }
+
+#down {
+top:120px;
+left:100px;
+width: 0;
+height: 0;
+border-left: 40px solid transparent; border-right: 40px solid transparent; border-top: 40px solid gold; }
+
+#right {
+left:190px;
+top:40px;
+width: 0;
+height: 0;
+border-top: 40px solid transparent; border-bottom: 40px solid transparent; border-left: 40px solid gold; }
+
+#left{
+left:50px;
+top:40px;
+width: 0;
+height: 0;
+border-top: 40px solid transparent; border-bottom: 40px solid transparent; border-right:40px solid gold; }
+
+#sword {
+   top:60px;
+   left:115px;
+   width:50px;
+   height:50px;
+   border-radius:25px;
+   background:lightBlue;
+}
+
+#invent{
+   left:250px;
+   width:150px;
+   height:200px;
+   background:brown;
+}
+#help{
+   height:50px;
+   width:50px;
+   background:lightGrey;
+   font-size:30px;
+   text-align:center;
+   line-height: 50px;
+}

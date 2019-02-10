@@ -1,0 +1,13 @@
+body {
+    background-color:black;
+}
+span{
+   color:white;
+}
+#p{
+   width:100%;
+}
+
+.progress{
+   margin-top:40px;
+}

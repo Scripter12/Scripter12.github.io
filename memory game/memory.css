@@ -1,0 +1,43 @@
+div {
+  border:5px solid white;
+  width:80px;
+  height:150px;
+
+}
+
+img{
+   width:80px;
+   height:150px;
+}
+
+#spread{
+   display:flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+   margin-top:60px;
+   width:100vw;
+}
+
+ .card{
+
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.front{
+  background:url("https://previews.123rf.com/images/bobyramone/bobyramone1204/bobyramone120400016/13207149-playing-card-back-side-62x90-mm.jpg");
+  background-size:80px 150px;
+  position:absolute;
+transform:perspective(600px)rotateY(0deg);
+  transition:transform .5s linear;
+  backface-visibility:hidden;
+}
+
+.back{
+background-color:blue;
+background-size:70px 100px;
+position:absolute;
+transform:perspective(600px)rotateY(0deg);
+transition:transform .5s linear;
+backface-visibility:hidden;
+}
